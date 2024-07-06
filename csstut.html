@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS TUt</title>
+    <link rel="stylesheet" href="first.css"/>
+</head>
+<body>
+    <h3>Learn CSS</h3>
+    <!-- This is the inline CSS -->
+    <p style = "color : red";>will be learning CSS from zero level</p>
+
+    <!-- This is howyou can do internal CSS -->
+     <style>
+        h3{
+            background-color:purple;
+            color:wheat;
+        }
+        /* CSS Element Selector */
+        p{
+            background-color: cyan;
+            color: black;
+            border: 2px solid red;
+        }
+        /* Css ID Selector */
+        #doRed{
+            color:red;
+            background-color: yellow;
+        }
+        /* CSS Class Selector */
+        .doBlue
+        {
+            color:blue;
+            background-color: hotpink;
+        }
+
+        /* This is grouping Selector */
+        span,footer{
+            background-color: orange;
+            color:beige;
+        }
+
+     </style>
+
+     <p id="doRed">Lorem ipsum dolor sit.</p>
+     <p class="doBlue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, iure? </p>
+     <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus, ipsa incidunt quasi dolores quod ullam beatae corrupti quisquam ut.</p>
+    </div>
+    <span>This is Span</span>
+    <footer>This is Footer</footer>
+</body>
+</html>
