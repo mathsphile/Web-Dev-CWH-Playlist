@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registratiion</title>
+</head>
+<link rel="stylesheet" href="registration.css">
+<body>
+   
+    <div class="container">
+        <h1>Registration Form</h1>
+        <form id="registration-form">
+            <div>
+                <label for="name">First Name:</label>
+                <input type="text" id="name1" name="name" required>
+            </div>
+            <div>
+                <label for="name">Last Name:</label>
+                <input type="text" id="name2" name="name" required>
+            </div>
+            <div>
+                <label for="date">Date of Birth:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div>
+                <label for="email">Email Id:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="mobile">Mobile No.</label>
+                <input tyep="number" id="mobie" name="mobile" required>
+            </div>
+            <div>
+                <label for="gender">Gender:Male<input type="radio" id="gender" name="gender">Female <input type="radio" id="gender" name="gender"></label>
+             </div>
+             <div>
+                <label for="address">Address</label><br>
+                <textarea name="text" cols="5" rows="2"></textarea>
+             </div>
+             <div>
+                <label for="city">City:</label>
+            <input type="text" id="city" name="city">
+                 </div>
+                 <div>
+                <label for="pin">Pin Code:</label>
+                <input type="number" id="pin" name="pin">
+                </div>
+             <div>
+                <label for="state">State</label>
+                <input type="text" id="state" name="state">
+             </div>
+             <div>
+               <label for="Country">Country:</label>
+               <input type="text" id="country" name="country">
+            </div>
+            <div>
+                <label for="hobby">Hobbies:Drawing<input type="checkbox" id="hobby" name="hobby">Dancing<input type="checkbox" id="hobby" name="hobby">Playing<input type="checkbox" id="hobby" name="hobby">Others<input type="checkbox" id="hobby" name="hobby"><textarea name="text"cols="20" rows="1"></textarea></label>
+             </div>
+             <div>
+                <label for="qualification">Qualifications:</label>
+                <table>
+                    <thead>
+                        <th>Sl. No. of Examination</th>
+                        <th>Board</th>
+                        <th>Percentage</th>
+                        <th>Year of Passing</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Class1 X</td>
+                            <td><textarea rows="1" cols="2"></textarea></td>
+                            <td><textarea rows="1" cols="2"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Class XII</td>
+                            <td><textarea rows="1" cols="2"></textarea></td>
+                            <td><textarea rows="1" cols="2"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Graduation</td>
+                            <td><textarea rows="1" cols="2"></textarea></td>
+                            <td><textarea rows="1" cols="2"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Masters</td>
+                            <td><textarea rows="1" cols="2"></textarea></td>
+                            <td><textarea rows="1" cols="2"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table>
+             </div>
+             <div>
+                <label for="course">Courses applied For:BCA <input type="radio" id="course" name="course">B.COM<input type="radio" id="course" name="course">B>SC<input type="radio" id="course" name="course">BA<input type="radio" id="course" name="course"></label>
+             </div>
+            </form>
+            <div>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </div>
+</body>
+</html>
